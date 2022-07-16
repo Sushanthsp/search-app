@@ -1,0 +1,29 @@
+.body
+{
+    width: 70%;
+    height: 400px;
+    background-color: white; 
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+
+    .heading{
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    .suggestions{
+        padding: 5px;
+    }
+    
+    .cards{
+        padding: 10px;
+        display: flex;
+        cursor: pointer;
+    }
+}
+

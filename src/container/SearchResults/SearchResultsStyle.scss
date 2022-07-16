@@ -1,0 +1,25 @@
+.ecom-body{
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+
+    .leftGrid{
+        width: 20%;
+    }
+
+    .text{
+        
+        padding: 10px;
+    }
+    .rightGrid{
+        width: 80%;
+    }
+
+    .cards{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

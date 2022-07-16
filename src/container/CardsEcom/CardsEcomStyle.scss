@@ -1,0 +1,99 @@
+.hover-cards{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 320px;
+    margin: 10px;
+    cursor: pointer;
+
+    .image-cards{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 300px;
+    
+        &:hover { 
+          .hover{
+            opacity: .8;
+          }
+          }
+    
+          &:active { 
+            .hover{
+                opacity: .8;
+              }
+          }
+    
+          .img{
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .font{
+        font-size: 16px;
+        padding: 5px;
+    }
+    
+    .price{
+        padding: 5px;
+        display: flex;
+    }
+    
+    .priceOne{
+        text-decoration: line-through;
+        font-weight: 400;
+        color: grey;
+    }
+    
+    .priceTwo{
+        margin-left: 10px;
+        color: rgb(0, 79, 116);
+        font-weight: 500;
+    }
+    
+    .ratings{
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        color: yellow;
+
+        span{
+            color:grey;
+            margin-left: 10px;
+        }
+    }
+    
+    .ph{
+        position: absolute;
+        margin-top: -32px;
+        width: 150px;    
+    }
+    .hover{
+        height: 30px;
+        color: #f3f3ff;
+        width: 100%;
+        background: #6666ff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .heart{
+        margin-top: -183%;
+        margin-left: 85%;
+    }
+
+    .heart {
+        color: rgb(255, 27, 27);  
+        cursor: pointer;
+      }
+      
+    }
+}
+
+
+

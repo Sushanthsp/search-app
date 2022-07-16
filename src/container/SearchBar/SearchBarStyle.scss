@@ -1,0 +1,61 @@
+.searchBody 
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/clothes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-bar { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+  
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      button {
+        padding:10px;
+        font-size: 20px;
+        cursor: pointer;
+        height: 80%;
+        position: absolute;
+        margin-left: 55%;
+        background-color: inherit;
+        border: none;
+      }
+    }
+  
+    .input {
+      font-size: 18px;
+      width: 100%;
+      padding: 5px 5px 5px 10px;
+      height: 38px;
+      border-radius: 10px;
+      border: 2px solid grey;
+      &:hover { 
+        border: 2px solid rgb(204, 203, 203); 
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        outline: none;
+      }
+
+      &:active { 
+        border: 2px solid rgb(204, 203, 203); 
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        outline: none;
+      }
+    }
+  }
+
+.icon{
+    width:30px;
+    height:25px;
+    margin-left: 10px;
+}

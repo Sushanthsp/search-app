@@ -43,7 +43,7 @@ function RecommendationBody() {
           Latest Trends
         </div>
         <div className="cards">
-        {recomendation.slice(0,no).map((x,index)=>  <Cards key={index} src={x.src} text={x.text} />  )}
+        {recomendation.slice(0,no).map((x,index)=>  <Cards key={index} src={x.src} name={x.name} />  )}
         </div>
       </div>
       <div className="bottom">
